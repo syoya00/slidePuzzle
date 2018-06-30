@@ -145,7 +145,6 @@ void allMove() {
         println(ranking[i]);
       }
       for (int i=0; i<5; i++) {
-        /*
         if (score>=ranking[i]&&rankRenew==-1) {
           for (int j=4; j>i; j--) {
             ranking[j] = ranking[j-1];
@@ -157,7 +156,6 @@ void allMove() {
           saveStrings("ranking.txt", lines);
           rankRenew = i;
         }
-        */
       }
 
       score = 0;
