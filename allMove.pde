@@ -163,9 +163,9 @@ void allMove() {
       score = 0;
       println(rankRenew);
       if (rankRenew==-1) {
-        phase=4;
+        phase=0;
       } else {
-        phase=3;
+        phase=0;
       }
     }
   } else if (phase==3) {
